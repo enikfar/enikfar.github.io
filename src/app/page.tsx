@@ -5,23 +5,25 @@ export default function Home() {
   return (
     <main className="min-h-screen p-8 md:p-24 max-w-4xl mx-auto">
       <div className="space-y-8">
-        {/* Header */}
-        <header className="space-y-4">
-          <h1 className="text-4xl font-bold">Ehsanullah "Ehsan" Nikfar</h1>
-          <div className="text-gray-600 space-y-2">
-            <p>70 Morningside Drive, New York, NY 10027-7236</p>
-            <p>Authorized to work for any US employer | He/Him</p>
-            <div className="flex gap-4">
-              <a href="tel:440-506-5632" className="hover:text-blue-600">440-506-5632</a>
-              <a href="mailto:en2572@columbia.edu" className="hover:text-blue-600">en2572@columbia.edu</a>
-              <a href="https://linkedin.com/in/Ehsan Nikfar" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">LinkedIn</a>
-              <a href="https://github.com/enikfar" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">GitHub</a>
+        {/* About */}
+        <section id="about">
+          <header className="space-y-4">
+            <h1 className="text-4xl font-bold">Ehsanullah "Ehsan" Nikfar</h1>
+            <div className="text-gray-600 space-y-2">
+              <p>70 Morningside Drive, New York, NY 10027-7236</p>
+              <p>Authorized to work for any US employer | He/Him</p>
+              <div className="flex gap-4">
+                <a href="tel:440-506-5632" className="hover:text-blue-600">440-506-5632</a>
+                <a href="mailto:en2572@columbia.edu" className="hover:text-blue-600">en2572@columbia.edu</a>
+                <a href="https://linkedin.com/in/EhsanNikfar" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">LinkedIn</a>
+                <a href="https://github.com/enikfar" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">GitHub</a>
+              </div>
             </div>
-          </div>
-        </header>
+          </header>
+        </section>
 
         {/* Education */}
-        <section className="space-y-4">
+        <section id="education" className="space-y-4">
           <h2 className="text-2xl font-bold border-b pb-2">Education</h2>
           <div className="space-y-4">
             <div>
@@ -54,7 +56,7 @@ export default function Home() {
         </section>
 
         {/* Experience */}
-        <section className="space-y-4">
+        <section id="experience" className="space-y-4">
           <h2 className="text-2xl font-bold border-b pb-2">Experience</h2>
           <div className="space-y-6">
             <div>
@@ -87,7 +89,7 @@ export default function Home() {
         </section>
 
         {/* Projects */}
-        <section className="space-y-4">
+        <section id="projects" className="space-y-4">
           <h2 className="text-2xl font-bold border-b pb-2">Personal Projects</h2>
           <div className="space-y-6">
             <div>
@@ -107,7 +109,7 @@ export default function Home() {
         </section>
 
         {/* Honors & Awards */}
-        <section className="space-y-4">
+        <section id="awards" className="space-y-4">
           <h2 className="text-2xl font-bold border-b pb-2">Honors & Awards</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>Coauthor of the research paper titled 'Hunt for Magnetic Signatures of Hidden-Photon and Axion Dark Matter in the Wilderness,' published in Physical Review D</li>
@@ -116,7 +118,7 @@ export default function Home() {
         </section>
 
         {/* Hobbies */}
-        <section className="space-y-4">
+        <section id="hobbies" className="space-y-4">
           <h2 className="text-2xl font-bold border-b pb-2">Hobbies</h2>
           <p className="text-gray-600">Basketball, Cooking, Ping-Pong, Photography, Solving Rubik's Cube, Chess</p>
         </section>
