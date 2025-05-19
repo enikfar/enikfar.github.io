@@ -11,7 +11,7 @@ Systems | AI | Performance Optimization | Low-Level Dev
 ---
 
 ### 👨‍💻 About Me
-I'm a Computer Science student at Columbia University with a deep interest in systems programming, low-level performance, and artificial intelligence. Originally from Afghanistan, I bring a global and adaptive mindset to problem solving. I’ve overcome challenges like ADHD and a learning disability by building efficient study and workflow habits. My goal is to be the best in everything I pursue.
+I'm a Computer Science student at Columbia University with a deep interest in systems programming, low-level performance, and artificial intelligence.
 
 ---
 
